@@ -12,6 +12,16 @@
 /.next/
 /out/
 
+# Ignore everything inside the supabase folder
+/supabase/*
+
+# But keep the migrations folder
+!/supabase/migrations/
+!/supabase/migrations/**
+
+# (Optional) keep the supabase/config.toml file if needed for local setup
+!/supabase/config.toml
+
 # production
 /build
 
